@@ -1,0 +1,160 @@
+2024-08-14 15:55:27,383 - __main__ - INFO - Starting the application...
+2024-08-14 16:21:45,982 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:21:45,983 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:51:48,952 - __main__ - INFO - User table created successfully
+2024-08-14 16:51:48,952 - __main__ - INFO - Starting the application...
+2024-08-14 16:56:42,679 - TeleBot - ERROR - Infinity polling exception: ОШИБКА:  целое вне диапазона
+
+2024-08-14 16:56:42,679 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: ОШИБКА:  целое вне диапазона
+
+
+2024-08-14 16:58:04,474 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:58:04,474 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:58:05,431 - __main__ - INFO - User table created successfully
+2024-08-14 16:58:05,432 - __main__ - INFO - Starting the application...
+2024-08-14 16:58:13,740 - TeleBot - ERROR - Infinity polling exception: ОШИБКА:  целое вне диапазона
+
+2024-08-14 16:58:13,740 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: ОШИБКА:  целое вне диапазона
+
+
+2024-08-14 16:59:14,626 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:59:14,626 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:00:14,730 - __main__ - INFO - User table created successfully
+2024-08-14 17:00:14,731 - __main__ - INFO - Starting the application...
+2024-08-14 17:00:19,334 - TeleBot - ERROR - Infinity polling exception: ОШИБКА:  целое вне диапазона
+
+2024-08-14 17:00:19,335 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: ОШИБКА:  целое вне диапазона
+
+
+2024-08-14 17:00:44,672 - TeleBot - ERROR - Infinity polling exception: ОШИБКА:  текущая транзакция прервана, команды до конца блока транзакции игнорируются
+
+2024-08-14 17:00:44,672 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 61, in start
+    user = check_user(message.from_user)
+  File "/home/ilia/Champions/TelegramBot/ExchangeBot/main.py", line 54, in check_user
+    cursor.execute(f"SELECT * FROM tg_users WHERE user_id = {user.id}")
+psycopg2.errors.InFailedSqlTransaction: ОШИБКА:  текущая транзакция прервана, команды до конца блока транзакции игнорируются
+
+
+2024-08-14 17:01:18,920 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:01:18,921 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:01:19,959 - __main__ - INFO - User table created successfully
+2024-08-14 17:01:19,959 - __main__ - INFO - Starting the application...
+2024-08-14 17:01:51,607 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:01:51,607 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:01:52,455 - __main__ - INFO - User table created successfully
+2024-08-14 17:01:52,455 - __main__ - INFO - Starting the application...
+2024-08-14 17:02:38,025 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:02:38,025 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:02:38,949 - __main__ - INFO - User table created successfully
+2024-08-14 17:02:38,949 - __main__ - INFO - Starting the application...
+2024-08-14 17:03:32,484 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:03:32,485 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:03:33,746 - __main__ - INFO - User table created successfully
+2024-08-14 17:03:33,746 - __main__ - INFO - Starting the application...
+2024-08-14 17:03:45,113 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:03:45,114 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:03:46,601 - __main__ - INFO - User table created successfully
+2024-08-14 17:03:46,601 - __main__ - INFO - Starting the application...
+2024-08-14 17:10:38,515 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:10:38,515 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:12:16,026 - __main__ - INFO - User table created successfully
+2024-08-14 17:12:16,026 - __main__ - INFO - Starting the application...
+2024-08-14 17:13:33,838 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:13:33,839 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:13:53,322 - __main__ - INFO - User table created successfully
+2024-08-14 17:13:53,322 - __main__ - INFO - Starting the application...
+2024-08-14 17:13:58,836 - __main__ - INFO - User 7384302098 inserted successfully
+2024-08-14 17:29:00,540 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:29:00,540 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:29:03,061 - __main__ - INFO - User table created successfully
+2024-08-14 17:29:03,061 - __main__ - INFO - Starting the application...
+2024-08-14 17:32:57,092 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:32:57,093 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:44:20,185 - __main__ - INFO - User table created successfully
+2024-08-14 17:44:20,185 - __main__ - INFO - Starting the application...
+2024-08-15 17:13:42,592 - __main__ - INFO - User table created successfully
+2024-08-15 17:13:42,593 - __main__ - INFO - Starting the application...
+2024-08-15 17:19:55,181 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:19:55,181 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:22:13,179 - __main__ - INFO - User table created successfully
+2024-08-15 17:22:13,179 - __main__ - INFO - Starting the application...
+2024-08-15 17:25:55,796 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:25:55,796 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:25:58,254 - __main__ - INFO - User table created successfully
+2024-08-15 17:25:58,255 - __main__ - INFO - Starting the application...

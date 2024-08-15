@@ -1,0 +1,10 @@
+# Environtment
+config.ini
+READMY.md
+.env
+# GIT
+.gitignor
+.git.sh
+
+temp/*
+git.sh
